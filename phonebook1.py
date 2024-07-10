@@ -10,4 +10,5 @@ for i in range(max_contacts):
 
 print("\nName\t\tPhone Number")
 for i in range(max_contacts):
-    print(f"{name_list[i]}\t\t{phone_number_list[i]}")
+    #print(f"{name_list[i]}\t\t{phone_number_list[i]}")
+    print(name_list[i],"\t\t",phone_number_list[i])
